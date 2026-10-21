@@ -1,0 +1,42 @@
+{
+    "geode": "2.0.0",
+    "version": "1.0.0",
+    "id": "autodecoratorai.reid",
+    "name": "Auto Decorator AI",
+    "developer": "Reid",
+    "description": "Intelligent AI-powered decoration system for Geometry Dash editor. Analyzes geometry and generates human-like decoration patterns with adaptive procedural rules.",
+    "repository": "https://github.com/reid/autodecoratorai",
+    "dependencies": [
+        {
+            "id": "geode",
+            "version": ">=2.0.0"
+        }
+    ],
+    "settings": {
+        "default-density": {
+            "type": "float",
+            "default": 0.5,
+            "min": 0.0,
+            "max": 1.0,
+            "name": "Default Decoration Density",
+            "description": "Default density for AI decoration generation"
+        },
+        "default-chaos": {
+            "type": "float",
+            "default": 0.3,
+            "min": 0.0,
+            "max": 1.0,
+            "name": "Default Chaos Factor",
+            "description": "Default randomness for decoration placement"
+        }
+    },
+    "resources": {
+        "sprites": [
+            "resources/sprites/*.png"
+        ]
+    },
+    "gd": {
+        "android": "2.2081",
+        "win": "2.2081"
+    }
+}
